@@ -1,0 +1,229 @@
+.bg-container {
+  background-color: #9ba9eb;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+.top-container {
+  background-color: #5763a5;
+  border-radius: 7px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #1b1717;
+  margin-bottom: 25px;
+}
+
+.input-container {
+  background-color: #454f84;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-password {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.icon-container {
+  border-right: solid 1px #b6c3ca;
+  background-color: #f8fafc;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.user-input {
+  background-color: transparent;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.add-button {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: #0b69ff;
+  border-radius: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-width: 0px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.top-image {
+  height: 70vh;
+}
+
+.bottom-container {
+  background-color: #5763a5;
+  border-radius: 7px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #1b1717;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.your-password {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+.count {
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: solid 1px #94a3b8;
+  border-radius: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.search-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-icon-container {
+  background-color: #f8fafc;
+  border-right: solid 1px #b6c3ca;
+  padding: 5px;
+}
+
+.icon {
+  width: 25px;
+}
+
+.search-input {
+  background-color: #f8fafc;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+hr {
+  border: solid 1px #b6c3ca;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.show-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.checked-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.show-password-text {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-password-image {
+  height: 50vh;
+  margin-top: 20px;
+}
+
+.no-password-text {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 769px) {
+  .top-container {
+    flex-direction: column;
+  }
+
+  .input-container {
+    order: 1;
+  }
+
+  .list-container {
+    flex-direction: column;
+  }
+}
